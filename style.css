@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #4682a9;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+    width: 620px;
+    height: 825px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.left {
+    padding: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+.contact {
+    margin: 10px;
+}
+.contact h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact ul li {
+    margin-top: 10px;
+}
+
+.contact ul li i {
+    color: #91c8e4;
+    margin-right: 8px;
+}
+
+.career {
+    margin: 5px 0;
+}
+.career h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.career p {
+    text-align: justify;
+    margin: 5px 0;
+    font-size: 0.7rem;
+}
+
+.language {
+    margin: 5px 0;
+}
+
+.language h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.language div {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.language div .bar {
+    width: 120px;
+    height: 10px;
+    background-color: #91c8e4;
+    border-radius: 20px;
+}
+
+.german strong {
+    margin-right: 10px;
+}
+
+#tam-bar {
+    margin-right: 22px;
+}
+
+#eng-bar {
+    width: 100px;
+    margin-right: 42px;
+}
+
+#german-bar {
+    width: 80px;
+    margin-right: 65px;
+}
+
+.skills {
+    margin: 5px 0;
+}
+
+.skills h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.skills ul {
+    margin: 5px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.interests {
+    margin: 5px 0;
+}
+
+.interests h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.icons {
+    padding: 10px 20px;
+    width: 100%;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.line-break {
+    margin: 8px 0;
+    width: 100%;
+}
+
+/* Right Side */
+
+.right {
+    background-color: #abd9f0;
+    width: 100%;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Name and Role */
+
+.info {
+    padding: 20px;
+}
+
+.name {
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.role {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* Education Conatinar */
+
+.education-conatiner {
+    padding: 20px;
+}
+
+.title {
+    background-color: #f6f4eb;
+    padding: 3px 8px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.degree {
+    margin-top: 15px;
+    margin-left: 8px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.university {
+    margin: 5px 0 0 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.university span {
+    font-weight: 400;
+}
+
+.curriculam {
+    margin: 8px 0 0 25px;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
